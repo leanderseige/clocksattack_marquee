@@ -127,4 +127,3 @@ void setAll() {
     digitalWrite(LEDS[x], (temp >> x & 0x01 == 1) ? HIGH : LOW );
   }
 }
-
